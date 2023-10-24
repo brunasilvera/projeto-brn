@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap');
+@font-face {
+    font-family: 'simpsons';
+    src: url(fontes/Homer_Simpson_Revised.ttf) format(truetype)
+
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+
+
+:root {
+    --cor0: #91D7F2;
+    --cor1: #F2CB05;
+    --cor3: #F2B705;
+    --cor4: #A60303;
+    --cor5: #400101;
+
+    --fonte-destaque: 'simpsons'; 
+    --font-padrao:'Playpen Sans', sans-serif;
+}
+
+
+
+ * { 
+    margin: 0px;
+    padding: 0px;
+ }
+ header {
+    background-image:linear-gradient(var(--cor0), var(--cor1,var(--cor3)));
+    font-family: var(--fonte-destaque);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+ header > h1 {
+    margin: auto;
+    padding: 10px 30px;
+    font-size: 5em;
+ }
+
+ header > img {
+    margin-right: 200px;
+ }
+
+ 
+    
+    
+ 
+ nav {
+
+    background-color:var(--cor0);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.437);
+    margin:0px 0px 5px 0px;
+    
+    
+     }
+
+    nav > a:hover {
+        text-decoration: underline;
+        color: var(--cor1);
+        
+    }
+
+
+
+   nav > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'simpsons'; 
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+ }
+
+ main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    
+    background-color: white;
+    font-family:var(--font-padrao);
+ }
+ main h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    background-image: linear-gradient(to top, var(--cor0), transparent);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.256);
+
+}
+main p {
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.256);
+    margin-top: 10px;
+
+}
+
+
+ main > div.degrade {
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+ }
+ main img {
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.211);
+    border-radius: 5px;
+ }
+
+
+ 
+div #pq {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin:10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.211);
+    border-radius: 5px;
+    
+    
+}
+
+ .ajustepq {
+    max-width:300px;
+    margin: 5px;
+ }
+
+ 
+ .h2 {
+    background-color: var(--cor0);
+    font-family:var(--font-padrao);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.416);
+
+}
+
+aside {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 5px 10px;
+    text-align: center;
+ }
+
+ footer {
+    background-color:white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding:5px 10px;
+    font-family: var(--fonte-destaque);
+
+    
+ }
+#textofooter, p {
+    display: inline;
+    background-color: var(--cor0);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.parr {
+    margin-right: 350px;
+    margin-left: 10px;
+}
+.logoinsta {
+    background-color: var(--cor0);
+    color: black;
+    text-decoration: none;
+    margin-left: 420px;
+
+}
+footer > div > a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+
+}
+
+
+
+
+
